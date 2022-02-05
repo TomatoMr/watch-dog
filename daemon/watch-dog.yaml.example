@@ -1,0 +1,8 @@
+log-level: "debug"  # 日志级别
+log-path: "./log/watch-dog.log"  # 日志路径
+ifaces:  # ebpf程序要attach的网卡列表
+  - enp0s3
+neo4j:  # neo4j信息
+  db-uri: "bolt://localhost:7687"
+  username: "neo4j"
+  password: "123456"
